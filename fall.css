@@ -1,0 +1,87 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.floor {
+    width:210px;
+    height:315px;
+    border:2px solid black;
+    margin:23px;
+    align-content:space-between;
+    column-gap:5%; 
+   
+  
+}
+
+.hexa1 {
+    background-color:red;
+    float:left;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    column-gap:5%;
+    border-radius:10px;
+}
+
+.hexa2 {
+    background-color:mediumseagreen;
+    float:right;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.hexa3 {
+    background-color:purple;
+
+    width:200px;
+    height:95px;
+    border:2px solid black;
+   align-content:center;  
+ /*  align-self:center;  */
+ /*column-gap:5%; */
+ /*gap:1em; */
+ /*row-gap:5%; */
+ /* justify-items:center; */
+ justify-self: center;
+
+ place-content: space-around-start;
+
+ place-items:center start;
+ border-radius: 10px;
+   
+}
+
+.hexa4 {
+    background-color:yellow;
+    float:left;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+  /*  align-content:space-between; */
+
+    align-self:end;
+    column-gap:5%;
+    justify-self: end;
+    border-radius:10px;
+   
+}
+
+.hexa5 {
+    background-color:blue;
+    float:right;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+/*  align-content:space-between; */
+    align-self:end;
+    column-gap:5%;
+    justify-self: end;
+    border-radius:10px;
+    
+}
+
+
+
